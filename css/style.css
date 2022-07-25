@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.registration_form{
+    width: 640px;
+}
+.registration_heder{
+    width: 100%;
+    background-color: #F5F7FC;
+    border-radius: 8px 8px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+.registration_heder_first{
+    display: flex;
+    align-items: center;
+}
+.registration_heder_first img{
+    width: 8px;
+    height: 14px;
+    margin: 27px 13px 24px 19px;
+}
+.registration_heder_first h3{
+    font-family: Noto_Sans Georgian;
+    font-size: 16px;
+    color: #000000;
+}
+.registration_heder_next img{
+    width: 24px;
+    height: 24px;
+    background-color: #F70628;
+    border-radius: 8px;
+    margin: 17px 13px 13px 0px;
+}
+.registration_start{
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tel_form{
+    width: 441px;
+    margin: 96px 99px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.tel_form label{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: Noto_Sans Georgian;
+    font-size: 16px;
+    color: #1B1F3BCC;
+    margin-bottom: 48px;
+}
+.tel_form input{
+    width: 230px;
+    height: 46px;
+    border-radius: 30px;
+    margin-bottom: 143px;
+    border: 1px solid #D7D7D7
+}
+.button_next{
+    width: 482px;
+    font-family: Noto Sans Georgian;
+    font-size: 15px;
+    color: #FFFFFF;
+    background-color: #F70628;
+    border-radius: 12px;
+    margin-bottom: 24px;
+    padding: 16px 0px 16px 0px;
+}
+.registration_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 5px 79px 5px 79px;
+    background-color: #333333;
+    border-radius: 0px 0px 8px 8px;
+}
+.registration_firs{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+.registration_firs span{
+    font-family: Montserrat;
+    font-size:14px;
+    margin-right: 16px;
+    color: #FFFFFFB8;
+}
+.registration_firs img{
+    width: 6px;
+    height: 10px;
+}
+.registration_last{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+.registration_last{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+.registration_last span{
+    font-family: Noto_Sans Georgian;
+    font-size: 10px;
+    margin-right: 16px;
+    color: #FFFFFFB8;
+}
+.registration_last img{
+    width: 16.67px;
+    height: 16.67px;
+}
