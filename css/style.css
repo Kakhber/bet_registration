@@ -26,19 +26,24 @@ ul {
     display: flex;
     align-items: center;
 }
-.registration_heder_first img{
+.registration_heder_first span{
+    display: flex;
+    align-items: center;
     width: 8px;
     height: 14px;
     margin: 27px 13px 24px 19px;
+    color: #333333;
 }
 .registration_heder_first h3{
     font-family: Noto_Sans Georgian;
     font-size: 16px;
     color: #000000;
 }
-.registration_heder_next img{
+.registration_heder_next span{
     width: 24px;
     height: 24px;
+    color: #FFFFFF;
+    background-size: 35px;
     background-color: #F70628;
     border-radius: 8px;
     margin: 17px 13px 13px 0px;
@@ -48,6 +53,7 @@ ul {
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 .tel_form{
@@ -55,8 +61,8 @@ ul {
     margin: 96px 99px 0px 100px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    
 }
 .tel_form label{
     display: flex;
@@ -67,12 +73,18 @@ ul {
     color: #1B1F3BCC;
     margin-bottom: 48px;
 }
-.tel_form input{
-    width: 230px;
+.phone_code{
     height: 46px;
     border-radius: 30px;
+    border: 1px solid #D7D7D7;
+}
+.tel_form input{
+    width: 203px;
+    height: 46px;
+    font-size: 16px;
+    border-radius: 30px;
     margin-bottom: 143px;
-    border: 1px solid #D7D7D7
+    border: 1px solid #D7D7D7;
 }
 .button_next{
     width: 482px;
@@ -93,41 +105,122 @@ ul {
     background-color: #333333;
     border-radius: 0px 0px 8px 8px;
 }
-.registration_firs{
+.registration_footer_firs{
     display: flex;
-    justify-content: space-between;
     justify-items: center;
     align-items: center;
 }
-.registration_firs span{
+.registration_footer_firs div{
     font-family: Montserrat;
     font-size:14px;
     margin-right: 16px;
     color: #FFFFFFB8;
 }
-.registration_firs img{
+.registration_footer_firs span{
+    display: flex;
+    align-items: center;
     width: 6px;
     height: 10px;
+    color: #C7C9CC;
 }
-.registration_last{
+.registration_footer_last{
     display: flex;
-    justify-content: space-between;
     justify-items: center;
     align-items: center;
 }
-.registration_last{
-    display: flex;
-    justify-content: space-between;
-    justify-items: center;
-    align-items: center;
-}
-.registration_last span{
-    font-family: Noto_Sans Georgian;
+.registration_footer_last div{
+    font-family: Noto Sans Georgian;
     font-size: 10px;
-    margin-right: 16px;
     color: #FFFFFFB8;
 }
-.registration_last img{
+.registration_footer_last span{
+    display: flex;
+    align-items: center;
     width: 16.67px;
     height: 16.67px;
+    color: #B0B0B0;
+    padding-left: 16px;
+}
+.mobile_version{
+    display: none;
+}
+.tel_registration{
+    max-width: 343px;
+    display: flex;
+    flex-direction: column;
+}
+.tel_registration p{
+    text-align: center;
+    font-family: Noto Sans Georgian;
+    font-size: 14px;
+    color: #1B1F3BCC;
+}
+.tel_registration span{
+    margin: 48px auto 8px 16px;
+    font-family: Noto Sans Georgian;
+    font-size: 14px;
+    color: #1B1F3BA6;
+}
+.mobile_Valley{
+    margin-left: 16px;
+    display: flex ;
+    justify-content: center;
+}
+.mobile_Valley select{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 13px 16px;
+    margin-right: 12px;
+    gap: 10px;
+    border: 1px solid #D7D7D7;
+    border-radius: 30px;
+    width: 129px;
+    height: 46px;
+}
+.mobile_Valley input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 203px;
+    height: 46px;
+    border: 1px solid #D7D7D7;
+    border-radius: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 16px;
+}
+.tel_sms{
+    width: 343px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 36px;
+    margin-top: 32px;
+    margin-bottom: 50px;
+    gap: 32px;
+    background: #F70628;
+    border-radius: 12px;
+
+}
+.boxes{
+    display: grid;
+    width: 100%;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-auto-rows: minmax(77.77px, auto);
+}
+.box{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+	border: 1px solid #F1F2F5;
+    color: #20214D;
+    opacity: 0.7;
+	font-size: 28px;
+	text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
